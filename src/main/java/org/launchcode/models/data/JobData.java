@@ -100,9 +100,7 @@ public class JobData {
         throw new IllegalArgumentException("Cannot get field of type " + type);
     }
 
-    public JobFieldData<Employer> getEmployers() {
-        return employers;
-    }
+    public JobFieldData<Employer> getEmployers() { return employers; }
 
     public JobFieldData<Location> getLocations() {
         return locations;
@@ -112,7 +110,5 @@ public class JobData {
         return coreCompetencies;
     }
 
-    public JobFieldData<PositionType> getPositionTypes() {
-        return positionTypes;
-    }
+    public JobFieldData<PositionType> getPositionTypes() { return positionTypes; }
 }
